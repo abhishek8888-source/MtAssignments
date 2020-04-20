@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Weather</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body onload="initWeather()">
+    <div class="input-city">
+        <h1>Weather</h1>
+        <br />
+        <input type="text" class="cityInput" placeholder="Search by city">
+        <input type="submit" value="Search" class="searchButton">
+    </div>
+    <div class="display-weather">
+        <span>
+            <h1 class="city-name"></h1>
+            <p class="city-desc"></p>
+            <img class="weather-icon">
+            <p class="city-temp"></p>
+        </span>
+    </div>
+    <script src="../scripts/script.js"></script>
+</body>
+
+</html>
